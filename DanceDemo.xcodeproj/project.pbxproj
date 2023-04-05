@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6776104829DDEDE80016B4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776104729DDEDE80016B4E3 /* AppDelegate.swift */; };
+		6776104A29DDEDE80016B4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776104929DDEDE80016B4E3 /* SceneDelegate.swift */; };
+		6776104C29DDEDE80016B4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776104B29DDEDE80016B4E3 /* ViewController.swift */; };
+		6776104F29DDEDE80016B4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6776104D29DDEDE80016B4E3 /* Main.storyboard */; };
+		6776105129DDEDE90016B4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6776105029DDEDE90016B4E3 /* Assets.xcassets */; };
+		6776105429DDEDE90016B4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6776105229DDEDE90016B4E3 /* LaunchScreen.storyboard */; };
+		6776105F29DDEDE90016B4E3 /* DanceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776105E29DDEDE90016B4E3 /* DanceDemoTests.swift */; };
+		6776106929DDEDE90016B4E3 /* DanceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776106829DDEDE90016B4E3 /* DanceDemoUITests.swift */; };
+		6776106B29DDEDE90016B4E3 /* DanceDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776106A29DDEDE90016B4E3 /* DanceDemoUITestsLaunchTests.swift */; };
+		6776107829DDEFC00016B4E3 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776107729DDEFC00016B4E3 /* VideoCapture.swift */; };
+		6776107C29E5E23E0016B4E3 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776107B29E5E23E0016B4E3 /* Predictor.swift */; };
+		6776107E29E600410016B4E3 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776107D29E600410016B4E3 /* MyClass.swift */; };
+		67E96B3529ED6043008EF154 /* GSClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 67E96B3429ED6043008EF154 /* GSClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6776105B29DDEDE90016B4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6776103C29DDEDE80016B4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6776104329DDEDE80016B4E3;
+			remoteInfo = DanceDemo;
+		};
+		6776106529DDEDE90016B4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6776103C29DDEDE80016B4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6776104329DDEDE80016B4E3;
+			remoteInfo = DanceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6776104429DDEDE80016B4E3 /* DanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6776104729DDEDE80016B4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6776104929DDEDE80016B4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6776104B29DDEDE80016B4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6776104E29DDEDE80016B4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6776105029DDEDE90016B4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6776105329DDEDE90016B4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6776105529DDEDE90016B4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6776105A29DDEDE90016B4E3 /* DanceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6776105E29DDEDE90016B4E3 /* DanceDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceDemoTests.swift; sourceTree = "<group>"; };
+		6776106429DDEDE90016B4E3 /* DanceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6776106829DDEDE90016B4E3 /* DanceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceDemoUITests.swift; sourceTree = "<group>"; };
+		6776106A29DDEDE90016B4E3 /* DanceDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6776107729DDEFC00016B4E3 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		6776107B29E5E23E0016B4E3 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		6776107D29E600410016B4E3 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		67E96B3429ED6043008EF154 /* GSClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GSClassifier.mlmodel; path = "../../../../../var/folders/v0/tcf3h5xx165cnnvrp_x3sv8w0000gn/T/com.apple.dt.CreateML.app/sharing/drag/D2E5A303-AAD9-4F0C-89D3-B2CE1FFF1536/GSClassifier.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6776104129DDEDE80016B4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776105729DDEDE90016B4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776106129DDEDE90016B4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6776103B29DDEDE80016B4E3 = {
+			isa = PBXGroup;
+			children = (
+				6776104629DDEDE80016B4E3 /* DanceDemo */,
+				6776105D29DDEDE90016B4E3 /* DanceDemoTests */,
+				6776106729DDEDE90016B4E3 /* DanceDemoUITests */,
+				6776104529DDEDE80016B4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6776104529DDEDE80016B4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6776104429DDEDE80016B4E3 /* DanceDemo.app */,
+				6776105A29DDEDE90016B4E3 /* DanceDemoTests.xctest */,
+				6776106429DDEDE90016B4E3 /* DanceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6776104629DDEDE80016B4E3 /* DanceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67E96B3429ED6043008EF154 /* GSClassifier.mlmodel */,
+				6776104729DDEDE80016B4E3 /* AppDelegate.swift */,
+				6776104929DDEDE80016B4E3 /* SceneDelegate.swift */,
+				6776104B29DDEDE80016B4E3 /* ViewController.swift */,
+				6776104D29DDEDE80016B4E3 /* Main.storyboard */,
+				6776105029DDEDE90016B4E3 /* Assets.xcassets */,
+				6776105229DDEDE90016B4E3 /* LaunchScreen.storyboard */,
+				6776105529DDEDE90016B4E3 /* Info.plist */,
+				6776107729DDEFC00016B4E3 /* VideoCapture.swift */,
+				6776107B29E5E23E0016B4E3 /* Predictor.swift */,
+				6776107D29E600410016B4E3 /* MyClass.swift */,
+			);
+			path = DanceDemo;
+			sourceTree = "<group>";
+		};
+		6776105D29DDEDE90016B4E3 /* DanceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6776105E29DDEDE90016B4E3 /* DanceDemoTests.swift */,
+			);
+			path = DanceDemoTests;
+			sourceTree = "<group>";
+		};
+		6776106729DDEDE90016B4E3 /* DanceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6776106829DDEDE90016B4E3 /* DanceDemoUITests.swift */,
+				6776106A29DDEDE90016B4E3 /* DanceDemoUITestsLaunchTests.swift */,
+			);
+			path = DanceDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6776104329DDEDE80016B4E3 /* DanceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6776106E29DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemo" */;
+			buildPhases = (
+				6776104029DDEDE80016B4E3 /* Sources */,
+				6776104129DDEDE80016B4E3 /* Frameworks */,
+				6776104229DDEDE80016B4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceDemo;
+			productName = DanceDemo;
+			productReference = 6776104429DDEDE80016B4E3 /* DanceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6776105929DDEDE90016B4E3 /* DanceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6776107129DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemoTests" */;
+			buildPhases = (
+				6776105629DDEDE90016B4E3 /* Sources */,
+				6776105729DDEDE90016B4E3 /* Frameworks */,
+				6776105829DDEDE90016B4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6776105C29DDEDE90016B4E3 /* PBXTargetDependency */,
+			);
+			name = DanceDemoTests;
+			productName = DanceDemoTests;
+			productReference = 6776105A29DDEDE90016B4E3 /* DanceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6776106329DDEDE90016B4E3 /* DanceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6776107429DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemoUITests" */;
+			buildPhases = (
+				6776106029DDEDE90016B4E3 /* Sources */,
+				6776106129DDEDE90016B4E3 /* Frameworks */,
+				6776106229DDEDE90016B4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6776106629DDEDE90016B4E3 /* PBXTargetDependency */,
+			);
+			name = DanceDemoUITests;
+			productName = DanceDemoUITests;
+			productReference = 6776106429DDEDE90016B4E3 /* DanceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6776103C29DDEDE80016B4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6776104329DDEDE80016B4E3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6776105929DDEDE90016B4E3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6776104329DDEDE80016B4E3;
+					};
+					6776106329DDEDE90016B4E3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6776104329DDEDE80016B4E3;
+					};
+				};
+			};
+			buildConfigurationList = 6776103F29DDEDE80016B4E3 /* Build configuration list for PBXProject "DanceDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6776103B29DDEDE80016B4E3;
+			productRefGroup = 6776104529DDEDE80016B4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6776104329DDEDE80016B4E3 /* DanceDemo */,
+				6776105929DDEDE90016B4E3 /* DanceDemoTests */,
+				6776106329DDEDE90016B4E3 /* DanceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6776104229DDEDE80016B4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6776105429DDEDE90016B4E3 /* LaunchScreen.storyboard in Resources */,
+				6776105129DDEDE90016B4E3 /* Assets.xcassets in Resources */,
+				6776104F29DDEDE80016B4E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776105829DDEDE90016B4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776106229DDEDE90016B4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6776104029DDEDE80016B4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6776107829DDEFC00016B4E3 /* VideoCapture.swift in Sources */,
+				6776104C29DDEDE80016B4E3 /* ViewController.swift in Sources */,
+				67E96B3529ED6043008EF154 /* GSClassifier.mlmodel in Sources */,
+				6776104829DDEDE80016B4E3 /* AppDelegate.swift in Sources */,
+				6776107C29E5E23E0016B4E3 /* Predictor.swift in Sources */,
+				6776104A29DDEDE80016B4E3 /* SceneDelegate.swift in Sources */,
+				6776107E29E600410016B4E3 /* MyClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776105629DDEDE90016B4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6776105F29DDEDE90016B4E3 /* DanceDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6776106029DDEDE90016B4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6776106929DDEDE90016B4E3 /* DanceDemoUITests.swift in Sources */,
+				6776106B29DDEDE90016B4E3 /* DanceDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6776105C29DDEDE90016B4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6776104329DDEDE80016B4E3 /* DanceDemo */;
+			targetProxy = 6776105B29DDEDE90016B4E3 /* PBXContainerItemProxy */;
+		};
+		6776106629DDEDE90016B4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6776104329DDEDE80016B4E3 /* DanceDemo */;
+			targetProxy = 6776106529DDEDE90016B4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6776104D29DDEDE80016B4E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6776104E29DDEDE80016B4E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6776105229DDEDE90016B4E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6776105329DDEDE90016B4E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6776106C29DDEDE90016B4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6776106D29DDEDE90016B4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6776106F29DDEDE90016B4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanceDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For capturing your dance moves and start the AR session.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6776107029DDEDE90016B4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanceDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For capturing your dance moves and start the AR session.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6776107229DDEDE90016B4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanceDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DanceDemo";
+			};
+			name = Debug;
+		};
+		6776107329DDEDE90016B4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanceDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DanceDemo";
+			};
+			name = Release;
+		};
+		6776107529DDEDE90016B4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanceDemo;
+			};
+			name = Debug;
+		};
+		6776107629DDEDE90016B4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8MHZG7ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idealab.DanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6776103F29DDEDE80016B4E3 /* Build configuration list for PBXProject "DanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6776106C29DDEDE90016B4E3 /* Debug */,
+				6776106D29DDEDE90016B4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6776106E29DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6776106F29DDEDE90016B4E3 /* Debug */,
+				6776107029DDEDE90016B4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6776107129DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6776107229DDEDE90016B4E3 /* Debug */,
+				6776107329DDEDE90016B4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6776107429DDEDE90016B4E3 /* Build configuration list for PBXNativeTarget "DanceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6776107529DDEDE90016B4E3 /* Debug */,
+				6776107629DDEDE90016B4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6776103C29DDEDE80016B4E3 /* Project object */;
+}
